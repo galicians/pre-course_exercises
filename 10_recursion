@@ -1,0 +1,12 @@
+def recursion num
+	if num <= 1
+		return 1
+	else
+		num * recursion(num-1)
+	end	
+	
+end
+
+
+
+puts recursion(4)

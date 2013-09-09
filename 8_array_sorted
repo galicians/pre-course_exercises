@@ -1,0 +1,14 @@
+puts 'Introduce as many words as you wish.'
+words = []
+
+while true
+	word = gets.chomp
+	if word == ''
+		break
+	end
+	
+	words.push word
+end		
+
+puts 'Sweet! Here they are, sorted!'
+puts words.sort

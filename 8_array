@@ -1,0 +1,4 @@
+languages = ['English','Spanish','ruby']
+languages.each do |lan|
+	puts lan
+end	

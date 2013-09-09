@@ -1,0 +1,18 @@
+bye = 0
+while true
+	input = gets.chomp
+
+	if input == input.upcase
+		puts 'NO, NOT SINCE ' + (1930+rand(20)).to_s
+		bye = 0
+	elsif bye == 2 && input =='bye'
+		puts 'BYE SWEETIE'
+		break
+	elsif input == 'bye' && bye != 3
+		puts 'HUH? SPEAK UP, SONNY!'
+		bye = bye + 1
+	else	
+		puts 'HUH? SPEAK UP, SONNY!'
+		bye = 0
+	end
+end			

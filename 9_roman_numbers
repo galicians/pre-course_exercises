@@ -1,0 +1,5 @@
+def old_roman_numeral number
+	roman = ''
+	roman = 'M' * (number / 1000)
+	roman = roman + 'D' * (number % 1000/500)
+

@@ -1,0 +1,62 @@
+class OrangeTree
+	def initialize name
+		@name = name
+		@age = 0
+		@height = 0
+		@orange_count = 0
+		puts "#{@name} is growing"
+	end
+	def height
+		puts "This tree is #{@height} cm tall."
+	end
+	def count_the_oranges
+		puts "There are #{@orange_count} oranges in the tree."	
+	end
+	def pick_an_orange?
+		if @orange_cont > 0
+			@orange_count = @orange_count - 1
+			puts 'That orange was delicious.'
+		else	
+			puts 'Sorry but right now, there are no oranges in the tree.'
+			return false
+		end
+	end
+	def one_year_passes
+		@age = @age + 0.5
+		puts "The age of the tree is #{@age}"
+		@height = @height + 15
+
+		if @age > 3
+			@orange_count = @orange_count +(@age * 5)
+			puts "#{@orange_count} oranges"
+		end
+		if @age == 25
+			puts "The life of the OrangeTree come to an end."
+		end
+		if @age%7 == 0
+			@orange_count = 0
+		end
+	end
+end		
+
+naranjo = OrangeTree.new 'Pablo'
+naranjo.one_year_passes
+naranjo.height
+naranjo.count_the_oranges
+naranjo.one_year_passes
+naranjo.height
+naranjo.one_year_passes
+naranjo.one_year_passes
+naranjo.one_year_passes
+naranjo.one_year_passes
+naranjo.count_the_oranges
+naranjo.one_year_passes
+naranjo.count_the_oranges
+naranjo.one_year_passes
+naranjo.count_the_oranges
+naranjo.count_the_oranges
+
+
+
+
+

@@ -1,0 +1,17 @@
+puts 'Introduce initial year'
+year_ini = gets.chomp.to_i
+puts
+puts 'Introduce final year'
+year_final = gets.chomp.to_i
+puts
+
+while year_ini != year_final
+	break if year_ini == year_final
+	 year_ini +=1
+	if year_ini % 4 == 0 && year_ini % 100 !=0
+		puts year_ini
+	elsif year_ini % 400 == 0
+		puts year_ini
+	else
+	end
+end			

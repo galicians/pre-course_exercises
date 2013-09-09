@@ -1,0 +1,16 @@
+def do_self_importantly some_proc
+	puts "Please, I'm going to do something"
+	some_proc.call
+	puts "I've just finished to do somehting"
+end
+
+hello = Proc.new do
+	puts 'Hello everybody'
+end
+bye = Proc.new do
+	puts 'Bye everybody'
+end
+
+do_self_importantly hello
+
+do_self_importantly bye			

@@ -1,0 +1,3 @@
+puts "What do you want?"
+wish = gets.chomp
+puts 'WHADDAYA MEAN ' + wish.upcase + '?!? YOU\'RE FIRED!!'

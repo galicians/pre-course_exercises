@@ -1,0 +1,30 @@
+arr1 = ['a','z','r','t','c']
+
+still_unsorted = []
+
+smallest = arr1.pop
+puts smallest
+puts
+
+arr1.each do |test_element|
+	puts 'test_element: '+test_element 
+	puts 'smallest: '+ smallest
+	
+	if test_element < smallest
+	puts 'if'
+		still_unsorted.push smallest
+		smallest = test_element
+		puts smallest
+	else
+		puts 'else'
+		still_unsorted.push test_element
+	end
+	still_unsorted.push smallest
+end
+puts
+puts 'This is my array sorted: ' 
+puts still_unsorted
+
+
+
+
