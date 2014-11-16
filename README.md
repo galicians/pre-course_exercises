@@ -1,9 +1,9 @@
 
 <h2>Chris Pine book exercises</h2>
 
-<li>It teaches you basics of Ruby in no time.</li>
-<li>Walks you through the basic sintax of ruby.</li>
-<li>Ilustrates the useful computer science concepts in ruby.</li>
+- It teaches you basics of Ruby in no time.
+- Walks you through the basic sintax of ruby.
+- Ilustrates the useful computer science concepts in ruby.
 
 <hr/>
 <img src="https://imagery.pragprog.com/products/139/ltp2.jpg?1298589829" width="300" height="300">
