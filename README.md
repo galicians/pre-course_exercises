@@ -1,7 +1,7 @@
 
 <h2>Chris Pine book exercises</h2>
 
-<img src="http://img.shields.io/badge/ruby-2.1.3-green.svg" width="50" height="50">
+<img src="http://img.shields.io/badge/ruby-2.1.3-green.svg" width="80" height="80"> <img src="http://img.shields.io/badge/OOP-status-green.svg" width="80" height="80"> 
 - It teaches you basics of Ruby in no time.
 - Walks you through the basic sintax of ruby.
 - Ilustrates useful computer science concepts in ruby.
